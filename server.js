@@ -23,5 +23,3 @@ server.on('connection', (ws) => {
         console.log('Пользователь отключился');
     });
 });
-
-console.log('WebSocket сервер запущен на ws://localhost:8080');
