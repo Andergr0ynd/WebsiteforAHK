@@ -119,6 +119,7 @@
                 <img src="yoomoney.png" alt="YooMoney" onclick="selectPayment('yoomoney', this)">
                 <img src="boosty.png" alt="Boosty" onclick="selectPayment('boosty', this)">
                 <img src="cryptocloud.png" alt="Cryptocloud" onclick="selectPayment('cryptocloud', this)">
+                <img src="steam.png" alt="Steam" onclick="selectPayment('steam', this)">
             </div>
             <p>Нажмите на один из методов оплаты выше или на кнопку ниже, чтобы продолжить.</p>
             <p>До или после оплаты, советуем вам зайти в <a href="https://discord.gg/5KDB5Nww3b" class="no-style-link">Discord</a>, чтобы провести активацию.</p>
@@ -150,7 +151,8 @@
             let paymentLinks = {
                 'yoomoney': 'https://yoomoney.ru/to/4100116158817069',
                 'boosty': 'https://boosty.to/andergr0ynd/purchase/2921434?share=subscription_link',
-                'cryptocloud': 'https://pay.cryptocloud.plus/pos/Z6bE4xBFzz6TWubB'
+                'cryptocloud': 'https://pay.cryptocloud.plus/pos/Z6bE4xBFzz6TWubB',
+                'steam': 'https://steamcommunity.com/tradeoffer/new/?partner=1362194927&token=rnFCKRCn'
             };
 
             window.location.href = paymentLinks[selectedPayment];
